@@ -1,0 +1,27 @@
+{
+	"name": "Double md5 Generation",
+	"version": "1.0",
+	"description": "Double md5 Generation",
+	"icons": {
+		"128": "icons/icon128.png",
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png"
+	},
+	"manifest_version": 2,
+	"background": {
+		"scripts": [
+			"background/background.js",
+			"background/storage.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": {
+			"19": "icons/icon19.png",
+			"38": "icons/icon38.png"
+		},
+		"default_popup": "popup/popup.html"
+	},
+	"permissions": [
+		"tabs"
+	]
+}
