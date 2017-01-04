@@ -1,5 +1,5 @@
 /**
- * 原文
+ * source text
  */
 var Source = {
 	get() {
@@ -11,7 +11,7 @@ var Source = {
 };
 
 /**
- * 双重 MD5 码
+ * result text
  */
 var Result = {
 	get() {

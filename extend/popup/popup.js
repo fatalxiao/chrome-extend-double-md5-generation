@@ -10,18 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	source.value = BG.Source.get() || '';
 	result.value = BG.Result.get() || '';
 
-	/**
-	 * 生成双重 MD5
-	 * @param source
-	 */
 	function generateDoubleMD5(source) {
 		return source ? md5(md5(source)) : '';
 	}
 
-	/**
-	 * 设置 MD5 的值
-	 * @param value
-	 */
 	function setMD5(value = source.value) {
 		const r = generateDoubleMD5(value);
 		result.value = r;
@@ -29,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	/**
-	 * 复制 MD5 值到粘贴板
+	 * copy result to clipboard
 	 */
 	function copy() {
 
