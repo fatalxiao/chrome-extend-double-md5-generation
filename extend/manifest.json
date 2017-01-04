@@ -1,7 +1,7 @@
 {
 	"name": "Double md5 Generation",
 	"version": "1.0",
-	"description": "Double md5 Generation",
+	"description": "A Chrome extend to generate double md5.",
 	"icons": {
 		"128": "icons/icon128.png",
 		"16": "icons/icon16.png",
